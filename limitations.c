@@ -1,12 +1,10 @@
-#include<stdio.h>
-int main()
-{
- 
+#include <stdio.h>
 
-//   int a = 1000000000;
-//   long long int b=100000000;
-
-double a = 200.5225544114142;
-printf("%0.15lf",a);
+int main() {
+    int a, b;
+    scanf("%d %d", &a, &b);
+    printf("%d %d", a, b);
     return 0;
-}
+    
+};
+
